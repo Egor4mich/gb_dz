@@ -31,4 +31,3 @@ if duration >= 31104000:
     minuts = duration % 3600 // 60
     seconds = duration % 60
     print(f'{years} год {months} мес {days} дн {hours} час {minuts} мин {seconds} сек')
-    
