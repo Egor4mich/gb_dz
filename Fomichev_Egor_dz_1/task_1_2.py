@@ -1,4 +1,4 @@
-list_of_cubes = [i ** 3 for i in range(2, 1000) if i % 2 != 0]
+list_of_cubes = [i ** 3 for i in range(1001) if i % 2 != 0]
 sum_of_numbers = 0
 for number in list_of_cubes:
     sum_of_numerals = 0
