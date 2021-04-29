@@ -5,3 +5,4 @@ for number in range(21):
         print(f'{number} процента')
     else:
         print(f'{number} процентов')
+        
