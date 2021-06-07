@@ -1,7 +1,6 @@
 import fileinput
 import sys
 
-
 if len(sys.argv) != 3:
     print('Введите номер номер записи и значение!')
     sys.exit()
@@ -17,6 +16,3 @@ else:
                 print(sys.argv[2])
             else:
                 print(line, end='')
-
-
-
